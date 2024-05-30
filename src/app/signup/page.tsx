@@ -1,4 +1,4 @@
-// this is the login page component that will be rendered when the user navigates to the /login route
+// this is the login page component that will be rendered when the user navigates to the /signup route
 
 "use client";
 import React, { useState } from "react";
@@ -56,6 +56,10 @@ const SignupPage = () => {
 				>
 					Signup
 				</Button>
+
+				<Stack alignItems={"center"}>
+					<Link href="/login">Navigate to Login</Link>
+				</Stack>
 			</Stack>
 		</Stack>
 	);
