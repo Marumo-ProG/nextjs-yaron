@@ -19,7 +19,7 @@ const LoginPage = () => {
 		<Stack height={"100vh"} justifyContent={"center"} alignItems={"center"}>
 			<Stack width={"400px"} spacing={2}>
 				<Typography variant={"h4"} sx={{ textAlign: "center" }}>
-					Signup
+					Login
 				</Typography>
 				<TextField
 					label="Email"
